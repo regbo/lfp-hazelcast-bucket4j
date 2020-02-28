@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hazelcast:
+    ports:
+        - "5701:5701"
+    image: "hazelcast-test:latest"
